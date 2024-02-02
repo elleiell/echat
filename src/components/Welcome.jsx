@@ -1,6 +1,7 @@
 import './Welcome.css'
 import ChatImg from '../images/chatting.jpg'
 import EChatLogo from '../images/chat-logo.png'
+import './output.css'
 
 function Welcome() {
     return(
@@ -15,7 +16,7 @@ function Welcome() {
                     <img src={ChatImg} alt="Welcome to EChat" />
                 </div>
                 
-                <h2>Welcome to EChat!</h2>
+                <h2 className='text-3xl font-bold underline'>Welcome to EChat!</h2>
                 <p>Our chat app is the perfect wat to stay connected with friends.</p>
                 
                 <div className='signin-form'>
