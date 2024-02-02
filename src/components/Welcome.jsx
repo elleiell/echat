@@ -16,7 +16,7 @@ function Welcome() {
                     <img src={ChatImg} alt="Welcome to EChat" />
                 </div>
                 
-                <h2 className='text-3xl font-bold underline'>Welcome to EChat!</h2>
+                <h2 className='text-3xl font-bold underline text-center text-red-500'>Welcome to EChat!</h2>
                 <p>Our chat app is the perfect wat to stay connected with friends.</p>
                 
                 <div className='signin-form'>
