@@ -30,7 +30,7 @@ const Login = () => {
                             <input type="password" id="password" class="border-solid border-b-2 border-gray-500 border-t-0 border-x-0 text-gray-900 text-xl block w-full py-2 px-0 focus:ring-transparent focus:border-gray-500 " placeholder="•••••••••" required />
                         </div>
                         <div class="pt-4 mb-6">
-                            <button type="button" class="w-full md:w-1/3 text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-lg px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-red-900">Log in</button>
+                            <button type="button" class="w-full md:w-1/3 text-white bg-orange-500 hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-300 font-medium rounded-full text-lg px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-orange-900">Log in</button>
                         </div>       
                         {/* <div class="pt-4 mb-6 text-center ">
                             <hr />
