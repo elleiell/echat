@@ -7,13 +7,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: 'Oswald, ui-serif', 
+        'sans': ['"Inter var", sans-serif'],
       },
       backgroundColor: {
         'peach' : '#f3e8e3',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 
